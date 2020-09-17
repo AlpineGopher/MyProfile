@@ -18,7 +18,7 @@
 
 <h1>Ideal Job</h1>
 
-<a>"https://www.seek.com.au/job/50415933?type=promoted#searchRequestToken=eaaeece4-1967-4a5d-9d23-130e71a1a6bf"</a>
+<a>"https:"//www.seek.com.au/job/50415933?type=promoted#searchRequestToken=eaaeece4-1967-4a5d-9d23-130e71a1a6bf</a>
 
 <p>In this role I would be working on radio communications and help the recent expansion progresses.  It appeals to me as I like working with radio signals and radios, the job will be interesting for me.  
 
