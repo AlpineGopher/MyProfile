@@ -31,18 +31,18 @@ I am working toward the skills I need to fulfill this position as a Software Eng
 
 <h1>Personal Profile</h>
 
-<p>To view my results for the personality test click on the links below.</p><
+<p>To view my results for the personality test click on the links below.</p>
 
-<a herf="https://www.16personalities.com/profiles/ab5e570adfa5c/"></a>
+<p><a herf="https://www.16personalities.com/profiles/ab5e570adfa5c/"></a>
 <button onclick="https://www.16personalities.com/profiles/ab5e570adfa5c/='default.asp'">Pesonality Test</button>
 
 <a herf="https://www.learning-styles-online.com/inventory/results.php/"></a>
 <button onclick="https://www.learning-styles-online.com/inventory/results.php/='default.asp'">Learning Style Test</button>
 
 
-<a herf="https://www.psychometricinstitute.com.au/report-free.asp?ctid=10216956/">Psychometric Test</a>
-<button onclick="https://www.psychometricinstitute.com.au/report-free.asp?ctid=10216956/='default.asp'">Psychometric Test>
+<a herf="https://www.psychometricinstitute.com.au/report-free.asp?ctid=10216956/"></a>
+<button onclick="https://www.psychometricinstitute.com.au/report-free.asp?ctid=10216956/='default.asp'">Psychometric Test</p>
 
-The results in these tests don’t really mean much to me as I am always to learn new things to become the person I want to be.  In team environments I like to understand everyone's ideas and elaborate accordingly and add my thoughts.</p>
+<p>The results in these tests don’t really mean much to me as I am always to learn new things to become the person I want to be.  In team environments I like to understand everyone's ideas and elaborate accordingly and add my thoughts.</p>
 </body>
 </html>
