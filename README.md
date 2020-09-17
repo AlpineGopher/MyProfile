@@ -28,7 +28,7 @@ It appeals to me as I like working with radio signals and radios, the job will b
 I am to have a vast knowledge of different algorithms, radio codes, and various coding languages.   
 I am working toward the skills I need to fulfill this position as a Software Engineer, through the aid of RMIT.</p>
 
-<h1>Personal Profile</h>
+<h1>Personal Profile</h1>
 
 <p>To view my results for the personality test click on the links below.</p>
 
