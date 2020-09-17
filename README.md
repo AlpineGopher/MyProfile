@@ -19,7 +19,9 @@
 
 <h1>Ideal Job</h1>
 
-<a herf="https://www.seek.com.au/job/50415933?type=promoted#searchRequestToken=eaaeece4-1967-4a5d-9d23-130e71a1a6bf/">Software Engineer</a> 
+<a herf="https://www.seek.com.au/job/50415933?type=promoted#searchRequestToken=eaaeece4-1967-4a5d-9d23-130e71a1a6bf/"></a> 
+<button onclick="https://www.seek.com.au/job/50415933?type=promoted#searchRequestToken=eaaeece4-1967-4a5d-9d23-130e71a1a6bf='default.asp'">Software Engineer</button>
+
 
 <p>In this role I would be working on radio communications and help the recent expansion progresses.  It appeals to me as I like working with radio signals and radios, the job will be interesting for me.  
 
@@ -27,16 +29,19 @@ I am to have a vast knowledge of different algorithms, radio codes, and various 
 
 I am working toward the skills I need to fulfill this position as a Software Engineer, through the aid of RMIT.</p>
 
-<h1>Personal Profile</p>
+<h1>Personal Profile</h>
 
 <p>To view my results for the personality test click on the links below.</p><
 
-<a herf="https://www.16personalities.com/profiles/ab5e570adfa5c/">Pesonality Test</a>
+<a herf="https://www.16personalities.com/profiles/ab5e570adfa5c/"></a>
 <button onclick="https://www.16personalities.com/profiles/ab5e570adfa5c/='default.asp'">Pesonality Test</button>
 
-<a herf="https://www.learning-styles-online.com/inventory/results.php/">Learning Style Test</a>
+<a herf="https://www.learning-styles-online.com/inventory/results.php/"></a>
+<button onclick="https://www.learning-styles-online.com/inventory/results.php/='default.asp'">Learning Style Test</button>
+
 
 <a herf="https://www.psychometricinstitute.com.au/report-free.asp?ctid=10216956/">Psychometric Test</a>
+<button onclick="https://www.psychometricinstitute.com.au/report-free.asp?ctid=10216956/='default.asp'">Psychometric Test>
 
 The results in these tests don’t really mean much to me as I am always to learn new things to become the person I want to be.  In team environments I like to understand everyone's ideas and elaborate accordingly and add my thoughts.</p>
 </body>
