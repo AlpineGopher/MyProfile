@@ -29,13 +29,14 @@ I am working toward the skills I need to fulfill this position as a Software Eng
 
 <h1>Personal Profile</p>
 
-<p>To view my results for the personality test click on the links below.</p>
+<p>To view my results for the personality test click on the links below.</p><
 
-<a ="https://www.16personalities.com/profiles/ab5e570adfa5c/">Pesonality Test</a>
+<a herf="https://www.16personalities.com/profiles/ab5e570adfa5c/">Pesonality Test</a>
+<button onclick="https://www.16personalities.com/profiles/ab5e570adfa5c/='default.asp'">Pesonality Test</button>
 
-https://www.learning-styles-online.com/inventory/results.php
+<a herf="https://www.learning-styles-online.com/inventory/results.php/">Learning Style Test</a>
 
-https://www.psychometricinstitute.com.au/report-free.asp?ctid=10216956
+<a herf="https://www.psychometricinstitute.com.au/report-free.asp?ctid=10216956/">Psychometric Test</a>
 
 The results in these tests don’t really mean much to me as I am always to learn new things to become the person I want to be.  In team environments I like to understand everyone's ideas and elaborate accordingly and add my thoughts.</p>
 </body>
