@@ -18,7 +18,7 @@
 
 <h1>Ideal Job</h1>
 
-https://www.seek.com.au/job/50415933?type=promoted#searchRequestToken=eaaeece4-1967-4a5d-9d23-130e71a1a6bf 
+<a>https://www.seek.com.au/job/50415933?type=promoted#searchRequestToken=eaaeece4-1967-4a5d-9d23-130e71a1a6bf</a>
 
 <p>In this role I would be working on radio communications and help the recent expansion progresses.  It appeals to me as I like working with radio signals and radios, the job will be interesting for me.  
 
@@ -26,7 +26,7 @@ I am to have a vast knowledge of different algorithms, radio codes, and various 
 
 I am working toward the skills I need to fulfill this position as a Software Engineer, through the aid of RMIT.</p>
 
-<h1>Personal Profile</p>
+<h1>Personal Profile</h1>
 <p>o view my results for the personality test click on the links below. 
 
 https://www.16personalities.com/profiles/ab5e570adfa5c 
