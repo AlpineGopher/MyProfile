@@ -1,47 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>"Zorren Miller"</title>
+<title>Zorren Miller</title>
 </head>
+<style>
+h1{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 25px;
+  margin-left: 25px;}
+h2{text-align: center;}
+h2{font-size: 38px;}
+ul{text-align: top.right;}
+p{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+body{ background-color: black;   }
+h1{color: orange;font-size:42px;}
+p{color:gray;font-size:25px;font-style: oblique;font-weight: bolder;}
+</style>
 <body>
-<img src="C:\Users\Zorren\Documents\UNI\Ass1" width="300" height="200">
-<h1>Personal Information </h1>
-<p>Currently living in Falls Creek, Victoria.   I snowboard and ski, ride motorbikes, go fishing, 4x4 and just exploring in general.
-   I work as a Chef during winter and install fiber optics in summer.</p>
+  <h1>Project Idea</h1>
+  <p>
+    My project Idea is an app that links to anyone's phone or device that enters the resort and links the user to a local hub with the emergency services.  If the user likes to explore the back country, they can log it with the ‘Hub’ on details of their trip.  This app will allow the user to SOS calls for emergencies and non-emergencies lines also they can enable tracking, weather reports, lift status, webcam feeds, (if requested promotional popups, deals, general enquiry links) With this app activated will receive rewards for distance traveled each day, rewards such as discounted meals, ski hire, random promotional draws.
 
+    This app is manly designed for guests who like to explore the backcountry with the emergency services in mind, but still has the benefits for anyone that is using the app around the village. With the unpredictable weather patterns of the world this app will aid the emergency services as the app will upload GPS coordinates every 15 minutes, also with automated “R U OK” message if the guest has remained stationary for a certain period of time which the user can allocate within a 60 minute time frame once the guest has left the patrolled boundary of the resort.
 
- 
-<h1>Interests in IT.</h1>  
+    The features of the app include:
 
-<p> My interest in the IT world started when I was around 8 years old, where I was playing around circuit boards with my father.  From there my father bought our first TV and games console (commodore 64) which intrigued me.  Around when I was 12, I would go to the local library as I wasn’t allowed to go anywhere else, in result I made friends and they were into software design (they were in their 20’s).  During this friendship they would teach me certain this they were working on, also the library would hold classes to lean web page design, computer graphics and animations.  Over the year's things happened and now I have an opportunity with the currant worlds situation to pursue down the IT path through the aid of RMIT.  Currently I am rolling out layer 1 fiber optics , from digging in the infrastructure, splicing, and security cameras I would like to do more, so this is my reason for enrolling with RMIT.  Through RMIT I hope to gain knowledge that can assist me to progress my career, I am also enrolled in Programing.</p>
+    Whilst in the village the use can use it as a sleep tracker so it can monitor the user in case of a stroke or heart attack, it also can notify any other user that is nearby or has been nearby within the last 30 minutes for the first message of which the second user is prompted to call such user and if no response a flag is put up to the ‘Hub’ which can be turned off by the responding user to the emergencies.
 
+    This app also allows the user to have access to:
 
+    Weather reports with live updates set upon user request.
 
-<h1>Ideal Job</h1>
+    Tracking enabled so that the user can log their speed, distance of travel, elevation, GPS uploads every 15 minutes.
 
-<a herf="https://www.seek.com.au/job/50415933?type=promoted#searchRequestToken=eaaeece4-1967-4a5d-9d23-130e71a1a6bf/"></a> 
-<button onclick="https://www.seek.com.au/job/50415933?type=promoted#searchRequestToken=eaaeece4-1967-4a5d-9d23-130e71a1a6bf='default.asp'">Software Engineer</button>
+    Out of resort boundry automated message upon user specification under the allowance of 60 minutes, if not responded the appropriate emergency service will be notified for them to decide what is needed to be done.
 
+    Body Shock feature, where the device that is enabled will send an automated message sent to the user's desired contact if the device receives a sudden shock.  The app will send out a message containing the GPS location, time and how hard the impact was.  It will send out a message to the ‘Hub’ and the contact the user entered, who can lower the flag if false alarm.
 
-<p>In this role I would be working on radio communications and help the recent expansion progresses.  
-It appeals to me as I like working with radio signals and radios, the job will be interesting for me.  
-I am to have a vast knowledge of different algorithms, radio codes, and various coding languages.   
-I am working toward the skills I need to fulfill this position as a Software Engineer, through the aid of RMIT.</p>
+    Help button depending on assistance required. (Always contact emergency services)
 
-<h1>Personal Profile</h1>
+    Guest chat for general enquires.
 
-<p>To view my results for the personality test click on the links below.</p>
+    Restaurant booking.
 
-<a herf="https://www.16personalities.com/profiles/ab5e570adfa5c/"></a>
-<button onclick="https://www.16personalities.com/profiles/ab5e570adfa5c/='default.asp'">Pesonality Test</button>
+    Accomodation bookings.
 
-<a herf="https://www.learning-styles-online.com/inventory/results.php/"></a>
-<button onclick="https://www.learning-styles-online.com/inventory/results.php/='default.asp'">Learning Style Test</button>
+    Rewards for distance traveled, places explored and other promotional rewards.  These rewards include discounted products and services in and around the resort.
 
+    The app will send information back to a hub that will have algorithms set and the desired contact details of the user.
 
-<a herf="https://www.psychometricinstitute.com.au/report-free.asp?ctid=10216956/"></a>
-<button onclick="https://www.psychometricinstitute.com.au/report-free.asp?ctid=10216956/='default.asp'">Psychometric Test</button>
+    This have a high interest in this app as I am in the SES and the CFA in falls creek, and time is essential for the rate of survival of the individual.
 
-<p>The results in these tests don’t really mean much to me as I am always to learn new things to become the person I want to be.  In team environments I like to understand everyone's ideas and elaborate accordingly and add my thoughts.</p>
+    The software that is needed for this app are Shock sensitivity, location properties, call and message functions.  The ability to communicate with satellites to pin devices and other devices.
+
+    I plan to establish this app through the aid of a Raspberry PI, but that will come down to a lot of trial and error.  This project is designed for the aid of emergency services to gain access to anyone that is closer to the user's location so that they can have a quick response time in the case of an emergency.
+
+    As guests have gotten lost over the years from exploring or get trapped in weather systems, and where time can mean the difference of life or death this app could certainly help future instances.
+
+    The impact of this app is that will help first responders to find the location of the individual and have a path of where they have been in case, they have just lost their device.  The emergency responders can triage from the ‘Hub’ in case there may be another incident or other delays. </p>
+</style>
+</div>
 </body>
 </html>
