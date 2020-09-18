@@ -1,0 +1,50 @@
+var profiles = 
+{	
+	testarea: 
+	{
+		height:653,
+		width:1024,
+		resizable:0,
+		center:1
+	},
+	testareademo: 
+	{
+		height:480,
+		width:1024,
+		resizable:0,
+		center:0,
+		top:-10
+	},
+	coursearea: 
+	{
+		height:653,
+		width:1024,
+		resizable:0,
+		center:1
+	},
+	courseareademo: 
+	{
+		height:500,
+		width:1024,
+		resizable:0,
+		center:1
+	},
+	answerresult: 
+	{
+		height:653,
+		width:1024,
+		resizable:0,
+		center:1
+	},
+	receipt: 
+	{
+		height:600,
+		width:660,
+		resizable:1,
+		scrollbars:1,
+		center:1
+	}
+}
+jQuery(function($) {
+	$(".popupwindow").popupwindow(profiles);
+});

@@ -1,0 +1,113 @@
+/********************************************  GEE IMAGE ROTATOR  *********************************************/
+
+
+div.imgSlideHolder{
+	border:2px solid #ffffff;
+	background: #f6f6f6; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8e8e8', endColorstr='#ffffff'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#e8e8e8), to(#ffffff)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #e8e8e8,  #ffffff); /* for firefox 3.6+ */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 1px 1px 5px #888;
+	-webkit-box-shadow: 1px 1px 5px #888;
+	box-shadow: 1px 1px 5px #888;
+	/*margin:20px auto;*/
+	margin:20px;
+	overflow:hidden;
+	padding:10px 5px 5px 5px;
+}
+.clearFix{
+	clear:both;
+}
+.imgSlide{
+	overflow:hidden;
+	margin:0 auto 5px auto;
+	list-style:none;
+	padding:0px;
+	-moz-box-shadow: 1px 1px 5px #888;
+	-webkit-box-shadow: 1px 1px 5px #888;
+	box-shadow: 1px 1px 5px #888;
+}
+.imgSlide li{
+	cursor:pointer;
+	list-style:none;
+}
+
+.imgSlide li a{
+	display:block;
+}
+.imgSlide li img{
+}
+a.btnprev{
+	background:url(../images/icons/btn-prev.png) top left no-repeat;
+	display:block;
+	height:31px;
+	width:30px;
+	text-indent:-99999px;
+	float:right;
+}
+a.btnnext{
+	background:url(../images/icons/btn-next.png) top left no-repeat;
+	display:block;
+	height:31px;
+	width:30px;
+	text-indent:-99999px;
+	float:right;
+}
+
+.imgSlide li span.iconzoom{
+	background:url(../images/icons/btn-zoom.png) center center no-repeat;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	width:50px;
+	height:50px;
+	background-color:#7e9abb;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	z-index:100;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.imgSlide li span.iconzoom-hover{
+	background-color:#3c6290;
+	opacity:0.9;
+	filter:alpha(opacity=90); /* For IE8 and earlier */
+}
+
+#selectProducts div.imgSlideHolder{
+	float:left;
+}
+
+div.imgSlideHolderContent{
+	border:2px solid #ffffff;
+	background: #ffffff; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff)); /* for webkit browsers */
+	background: -moz-linear-gradient(top, #ffffff,  #ffffff); /* for firefox 3.6+ */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 1px 1px 5px #888;
+	-webkit-box-shadow: 1px 1px 5px #888;
+	box-shadow: 1px 1px 5px #888;
+	margin:20px;
+	overflow:hidden;
+	padding:10px 10px 5px;
+	float:left;
+	height: 345px;
+    width: 420px;
+
+}
+
+div.imgSlideHolderContent.long{
+	overflow-y:scroll;
+	overflow-x:none;
+}
+
+ul.tickList {
+}

@@ -1,0 +1,20 @@
+/* This CSS resource incorporates links to font software which is the
+   valuable copyrighted property of Type Network, Inc. and/or their
+   suppliers. You may not attempt to copy, install, redistribute,
+   convert, modify or reverse engineer this font software. Please
+   contact Type Network with any questions: www.typenetwork.com */
+
+
+	
+@font-face {
+	font-family: "Parka Reg";
+	font-display: swap;
+	font-weight: normal;
+	font-style: normal;
+	
+	src: url("//cloud.typenetwork.com/projectLicenseWeb/20511/fontfile/eot/?91e05be046436549e748447fe3a8641ab2a461a1");
+        src: url("//cloud.typenetwork.com/projectLicenseWeb/20511/fontfile/eot/?91e05be046436549e748447fe3a8641ab2a461a1#iefix") format("embedded-opentype"),
+             url("//cloud.typenetwork.com/projectLicenseWeb/20511/fontfile/woff2/?91e05be046436549e748447fe3a8641ab2a461a1") format("woff2"),
+             url("//cloud.typenetwork.com/projectLicenseWeb/20511/fontfile/woff/?91e05be046436549e748447fe3a8641ab2a461a1") format("woff");
+
+}

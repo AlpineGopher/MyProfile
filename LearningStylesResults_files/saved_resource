@@ -1,0 +1,27 @@
+
+var ftGUID_4169040="456415F68EF425";
+var ftConfID_4169040="21768796";
+var ftParams_4169040="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_ifb=1&ft_domain=www.learning-styles-online.com&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fwww.learning-styles-online.com%2Finventory%2Fresults.php&ft_keyword=__13330890__11849353__498434__&ft_section=__13330890__11849353__498434____29026122537162019293379500932886611003&cachebuster=872306.3211890991";
+var ftKeyword_4169040="";
+var ftCustom_4169040="";
+var ftSection_4169040="__13330890__11849353__498434____29026122537162019293379500932886611003";
+var ftSegment_4169040="um2";
+var ftSegmentList_4169040=[{s:'um2'}];
+var ftRuleMatch_4169040="0";
+var ftTimestamp_4169040="1600438422";
+var ftImp4169040 = {};
+ftImp4169040.privacy = "x";
+ftImp4169040.guidAge = "80";
+ftImp4169040.impID = "946AE461-620D-02AD-DDA0-E075BC2F0596";
+ftImp4169040.duid = "FT:456415F68EF425";
+
+ftImp4169040.ft_tpplid = "";
+ftImp4169040.ft_c = {};
+ftImp4169040.gdpr = "";
+ftImp4169040.gdpr_consent = "";
+ftImp4169040.gdpr_pd = "";
+ftImp4169040.oob_consent = "";
+ftImp4169040.gdprStoredConsent = "";
+ftImp4169040.us_privacy = "";
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/416/4169040/3147770/js/j-4169040-3147770.js" id="ftscript_m4169040" name="ftscript_m4169040"></scr'+'ipt>');

@@ -1,0 +1,94 @@
+/****
+Filename		: GEE.image.rotator.js
+Version		 	: 1.1
+Description		: Aimed for WYSIWYG editors, which populates an unordered list of thumbnail images.
+				  This list will create a sliding gallery with lightbox integration. Larger image are dynamically referenced (*_lg.jpg). 
+				  Nav buttons are created on the fly
+				  Note - requires a DIV wrapper with class imgSlideHolder
+History Log		: 7th June 2012 (v1.1 added Floating option)
+				  16th May 2012 (v1.0 released)
+					
+****/
+
+var imgThumbWidth = 400;
+var imgThumbHeight = 256;
+var offset = [15,15];	//width, height offset
+var hPanel = 20;		//nav offset
+var bGroup = true;
+var arrFloat = [false,'l'];	//floats and allow text wrap: l=left, r = right
+var tmdelay = 0 		// auto play if above 0
+var strCss = (arrFloat[0])?(arrFloat[1]=='l')?{"float":"left","margin":"20px 20px 20px 0"}:{"float":"right","margin":"20px 0 20px 20px"}:{};
+var postfix = '_lg.jpg';
+var arrBtn = {'next':{classprefix:'next',
+					  str:'<a href="#" class="btnnext">Next</a>',
+					  btn:'a.btnnext'
+					 },
+			  'prev':{classprefix:'prev',
+					  str:'<a href="#" class="btnprev">Prev</a>',
+				   	  btn:'a.btnprev'
+					 }
+			 }
+$(document).ready(function(){
+	$('ul[class^="imgSlide"]').each(function(a){
+		var parent = $(this).parent();
+		parent.css(strCss);
+		var num = a+1;//parent.index();
+		var cls = $(this).attr('class')+num;
+		$(this).css("width",imgThumbWidth).css("height",imgThumbHeight);
+		$(this).find('img').wrap('<a href="#" rel="" title=""></a>');
+		$(this).find('a').each(function(c){
+			var imgsrc=$('img',this).attr("src");
+			var x=imgsrc.substring(0,imgsrc.lastIndexOf("."));
+			var src=x+postfix; 
+			var title=($('img',this).is('[title]'))?$('img',this).attr("title"):$('img',this).attr("alt");	//if no title, search for alt
+			var a= "lightbox[" +((bGroup)?cls:cls+"-"+(c))+ "]";
+			$(this).attr('rel', a).attr('href', src).attr('title', title);
+			$(this).hover(function(){
+			  	$('span',this).addClass('iconzoom-hover');
+			  },function(){
+			  	$('span',this).removeClass('iconzoom-hover');
+			}); 
+		}).append('<span class="iconzoom"></span>');
+		$(this).find('img').each(function(){$(this).attr("width",imgThumbWidth).attr("height",imgThumbHeight);});
+		var $this = $(this);
+		$.each(arrBtn, function(k,v){
+			$this.parent().append(v.str);
+			$(v.btn,parent).addClass(v.classprefix+cls);
+		});
+		$(this).cycle({
+			fx: 'scrollBothWays',
+			pause: 1,
+			prev: '.prev'+cls,
+			next: '.next'+cls,
+			timeout:tmdelay
+		})
+	});
+	$('div.imgSlideHolder').css("width",imgThumbWidth+offset[0]).css("height",imgThumbHeight+hPanel+offset[1]).append('<div class="clearFix"></div>');
+});
+
+
+$.fn.cycle.transitions.scrollBothWays = function($cont, $slides, opts) {
+	$cont.css('overflow','hidden');
+	opts.before.push($.fn.cycle.commonReset);
+	opts.fxFn = function(curr, next, opts, cb, fwd) {
+		var w = $cont.width();
+		opts.cssFirst = { left: 0 };
+		opts.animIn	  = { left: 0 };
+		if(fwd){
+			opts.cssBefore= { left: w, top: 0 };
+			opts.animOut  = { left: 0-w };
+		}else{
+			opts.cssBefore= { left: -w, top: 0 };
+			opts.animOut  = { left: w };
+		};
+		var $l = $(curr), $n = $(next);
+		var speedIn = opts.speedIn, speedOut = opts.speedOut, easeIn = opts.easeIn, easeOut = opts.easeOut, animOut = opts.animOut, animIn = opts.animIn;			
+		$n.css(opts.cssBefore);
+		var fn = function() {$n.show();$n.animate(animIn, speedIn, easeIn, cb);};
+		$l.animate(animOut, speedOut, easeOut, function() {
+			if (opts.cssAfter) $l.css(opts.cssAfter);
+			if (!opts.sync) fn();
+		});
+		if (opts.sync) fn();
+	};
+};

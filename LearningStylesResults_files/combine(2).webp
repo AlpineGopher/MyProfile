@@ -1,0 +1,63 @@
+/**
+ * Combined CSS
+ * /utilcave_com/middleton/css.php?solCSS=1&css=/article/font/css/font-awesome.css&ezcb=191-5&tdir=/article/&scss=1&dirname=learning_styles_online_com&did=413&eztmp=1&ezcss=1
+ */ 
+
+/**
+ ************************************************
+ * /utilcave_com/middleton/css.php?solCSS=1&css=/article/font/css/font-awesome.css&ezcb=191-5&tdir=/article/&scss=1&dirname=learning_styles_online_com&did=413&eztmp=1&ezcss=1
+ ************************************************
+ */
+@font-face {
+  font-family: 'ezoic-FontAwesome';
+  src: url("//www.learning-styles-online.com/utilcave_com/middleton/img.webp?cb=5&dirname=learning_styles_online_com&img=%2Farticle%2Ffont%2Fcss%2F..%2Ffonts%2Ffontawesome-webfont.eot%3Fv%3D4.0.1");
+  src: url("//www.learning-styles-online.com/utilcave_com/middleton/img.webp?cb=5&dirname=learning_styles_online_com&img=%2Farticle%2Ffont%2Fcss%2F..%2Ffonts%2Ffontawesome-webfont.eot%3F%23iefix%26v%3D4.0.1") format("embedded-opentype"), url("//www.learning-styles-online.com/utilcave_com/middleton/img.webp?cb=5&dirname=learning_styles_online_com&img=%2Farticle%2Ffont%2Fcss%2F..%2Ffonts%2Ffontawesome-webfont.woff%3Fv%3D4.0.1") format("woff"), url("//www.learning-styles-online.com/utilcave_com/middleton/img.webp?cb=5&dirname=learning_styles_online_com&img=%2Farticle%2Ffont%2Fcss%2F..%2Ffonts%2Ffontawesome-webfont.ttf%3Fv%3D4.0.1") format("truetype"), url("//www.learning-styles-online.com/utilcave_com/middleton/img.webp?cb=5&dirname=learning_styles_online_com&img=%2Farticle%2Ffont%2Fcss%2F..%2Ffonts%2Ffontawesome-webfont.svg%3Fv%3D4.0.1%23fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.ezfa.ezCSS {
+  display: inline-block;
+  font-family: ezoic-FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.ezfa-lg.ezCSS {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%; }
+
+.ezfa-2x.ezCSS {
+  font-size: 2em; }
+
+.ezfa-3x.ezCSS {
+  font-size: 3em; }
+
+.ezfa-4x.ezCSS {
+  font-size: 4em; }
+
+.ezfa-5x.ezCSS {
+  font-size: 5em; }
+
+.ezfa-fw.ezCSS {
+  width: 1.2857142857142858em;
+  text-align: center; }
+
+.ezfa-home.ezCSS:before {
+  content: "\f015"; }
+
+.ezfa-caret-down.ezCSS:before {
+  content: "\f0d7"; }
+
+.ezfa-caret-up.ezCSS:before {
+  content: "\f0d8"; }
+
+.ezfa-caret-left.ezCSS:before {
+  content: "\f0d9"; }
+
+.ezfa-caret-right.ezCSS:before {
+  content: "\f0da"; }
+
+

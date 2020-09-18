@@ -1,0 +1,79 @@
+#ibox_overlay {
+	display:none;
+	position:absolute;
+	top:0!important;
+	left:0;
+	width:100%;
+	background-color:#000000;
+	opacity: 0.40 !important;
+	filter: alpha(opacity=40) !important;
+}
+#overlay[id]{
+	position:fixed;
+}
+#ibox {z-index: 1000000 !important;}
+#ibox_overlay {position: absolute; top: 0; left: 0; right: 0; z-index: 1000000 !important;}
+#ibox_loading {position: absolute; z-index: 1000001 !important;}
+#ibox_wrapper {position: absolute; top: 0; left: 0; z-index: 1000001 !important;}
+#ibox_footer_wrapper {position: absolute; top: 5px; right: 10px; white-space: nowrap; display: block !important;}
+#ibox_content {z-index: 1000002 !important; position: relative;}
+#ibox_wrapper {
+	padding: 25px 10px 10px 10px;
+	border-color:#fff;
+	text-align: center;
+}
+#ibox_wrapper, #ibox_footer_wrapper a { background-color:#DFDFDF; }
+#ibox_content {
+	background-color:#fff;
+	border:0;
+	padding: 10px;
+	text-align: center;
+}
+#ibox_footer_wrapper {
+	padding: 0 3px;
+	top: 5px;
+	bottom: auto;
+}
+@media only screen and (max-width:768px)  {
+	#ibox_wrapper {
+		width: 80% !important;
+		height: 40% !important;
+		max-width: 100%;
+		box-sizing: border-box;
+		margin-left: -10px;
+	}
+	#ibox_content {
+		width: 100% !important;
+		height: 105% !important;
+		max-width: 100%;
+		box-sizing: border-box;
+	}
+}
+#ibox_footer_wrapper a {
+	text-indent: -100000px;
+	background: url('images/closelabel.gif') top left no-repeat;
+	width: 85px;
+	height: 16px;
+}
+#ibox_progress {
+	text-indent: -100000px;
+	background: #fff url('images/loading.gif') center center no-repeat;
+}
+#ibox_footer {
+	font-weight: bold;
+	color: #7D7D7D;
+	line-height: 16px;
+}
+#confrimBoxWrapper {
+	padding:10px;
+}
+#confirmBoxMsg {
+	line-height: 15px;
+	font-size: 0.75em;
+	text-align: center;
+	display: block;
+}
+#confirmBoxBtns {
+	margin: 20px 0 0 0;
+	text-align:center;
+}
