@@ -10,9 +10,10 @@ main {
     max-width: 800px;
     padding: 25px;
     border: solid 25px red;
-    margin-top: 0% auto;
-    margin-bottom: 0% auto;
-}
+    margin-top: 25% auto;
+    margin-bottom: 25% auto;
+    margin-left: 25 auto;
+    }
 .bgimg-1 {
   background-image: url("FallsCreek.jpg");
   width:100%;
@@ -40,7 +41,7 @@ font-size:28px;
 text-align: center;
 }
 p {
-  text-align: center;
+  text-align: right;
   color: lightgray;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
