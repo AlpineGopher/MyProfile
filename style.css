@@ -1,3 +1,11 @@
+header {
+    background-color: #4a4a4a;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 0px 0;
+    margin-bottom: 0%;
+}
+
 main {
     width: 85%;
     max-width: 800px;
@@ -5,8 +13,8 @@ main {
     border: solid 25px red;
     margin-top: 0% auto;
     margin-bottom: 0% auto;
-    font-size: 24px;
 }
+
 .bgimg-1 {
   background-image: url("FallsCreek.jpg");
   width:100%;
@@ -17,13 +25,7 @@ main {
   background-position: center;
   background-repeat: no-repeat;
 }
-footer {
-    background-color: #4a4a4a;
-    color: blanchedalmond;
-    text-align: center;
-    padding: 25px 0;
-    margin-top: 25px;
-}
+
 button {
   background-color: lightblue;
   color:green;
@@ -31,21 +33,31 @@ button {
   text-align: center;
   font-size: 18px;
 }
-h1{
-  text-align: left;
+
+h1 {
   color: navy blue;
   font-size:32px;
+  text-align: center;
+
 }
-h2{color: black;
+h2 {color: black;
 font-size:28px;
 text-align: center;
 }
-p{text-align: center;
-color: gray;
-font-size: 12px;
-font-family: Arial, Helvetica, sans-serif;
-width:75%;
-max-width: 800px;
-margin-top: 20% auto;
-margin-bottom: 20% auto;
+
+p {
+  text-align: center;
+  color: lightgray;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  width:75%;
+  max-width: 800px;
+  margin-top: 20% auto;
+  margin-bottom: 20% auto;
+}
+
+ul {
+  text-align: left;
+  font-size: 12px;
+  color: darkred;
 }
